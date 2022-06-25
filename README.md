@@ -37,6 +37,8 @@ Specifications:
 
 • Uses the POW (Proof of Work)
 
+• Uses DarkGravityWave (DGW) difficulty algorithm
+
 • Algorithm:        SHA256
 
 • Block Time:       7 minutes
