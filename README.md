@@ -3,13 +3,7 @@ Aurum Crypto Gold
 ![](share/pixmaps/splashscreen_transparent.png)
 
 
-Download wallets:
-----------
-
-- Wallets available here: 
-https://github.com/SariKuHu/Aurum/releases/latest
-
-
+---
 
 
 Links
@@ -20,6 +14,10 @@ Links
 • Explorer: https://blocks.aurumcrypto.gold
 
 • Mining Pool: https://mining.aurumcrypto.gold
+
+• Wallets:  https://github.com/SariKuHu/Aurum/releases/latest
+
+
 
 
 
