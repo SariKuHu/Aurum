@@ -1,4 +1,4 @@
-﻿Aurum Crypto Gold
+Aurum Crypto Gold
 ========
 ![](share/pixmaps/splashscreen_transparent.png)
 
