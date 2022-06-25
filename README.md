@@ -10,11 +10,24 @@ Download wallets:
 https://github.com/SariKuHu/Aurum/releases/latest
 
 
+
+
+Links
+----------------
+
+• Website: https://aurumcrypto.gold
+
+• Explorer: https://blocks.aurumcrypto.gold
+
+• Mining Pool: https://mining.aurumcrypto.gold
+
+
+
+
 Specifications:
 ----------------------
 
 
-https://aurumcrypto.gold
 
 • ASICS friendly
 
@@ -50,14 +63,6 @@ https://aurumcrypto.gold
 
 
 
-Links
-----------------
-
-• Website: https://aurumcrypto.gold
-
-• Explorer: https://blocks.aurumcrypto.gold
-
-• Mining Pool: https://mining.aurumcrypto.gold
 
 
 
