@@ -1234,22 +1234,22 @@ bool ReadRawBlockFromDisk(std::vector<uint8_t>& block, const CBlockIndex* pindex
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
-    // int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval2;
     // Force block reward to zero when right shift is undefined.
-    //if (halvings >= 64)
-    //    return 0;
+    if (halvings >= 64)
+        return 0;
 
     CAmount nSubsidy;
 
 	if (nHeight == 1)
 		nSubsidy = 3799999.8 * COIN;
-	else if (nHeight >=2 && nHeight <= 1519999921)
+	else if (nHeight >=2 && nHeight <= 37199)
 		nSubsidy = 0.01 * COIN;
 	else
-		nSubsidy = 0 * COIN;
+		nSubsidy = 50 * COIN;
 
     // Subsidy is cut in half
-    //nSubsidy >>= halvings;
+    nSubsidy >>= halvings;
     return nSubsidy;
 }
 

@@ -54,6 +54,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 5; // not used anymore
+        consensus.nSubsidyHalvingInterval2 = 500000;
         consensus.BIP16Exception = uint256S("0x00000000096a33a29ab9620fad99fb18bb22ac751c12cbac5a4ac6c9ea0e1cbd");
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x00000000096a33a29ab9620fad99fb18bb22ac751c12cbac5a4ac6c9ea0e1cbd");
@@ -133,14 +134,19 @@ public:
                 { 500, uint256S("0x0000000000013eea67315278410cece832243adf354cbf18c737c91ed1409eea")},
                 { 1000, uint256S("0x0000000000014c6472db447928a9b417a15e46a395e9becf0a3d3168ddcd713f")},
                 { 1550, uint256S("0x00000000002b31d941c6fd380764e801fb40d8ac58e4f5ea0861bde774fc2627")},
+                { 7957, uint256S("0x0000000000006316d956e77d11a18638a4a9c59b7e24bfe29ca1ae01710ab5ba")},
+                { 21253, uint256S("0x000000000001f8f41eedaa2f7560e7d29729c9e474592e3b3293629675612945")},
+                { 26383, uint256S("0x0000000000012ab10113994438c74c2d85358dae8aaad31ec580f441f26d15e0")},
+                { 29976, uint256S("0x000000000001ad9dd411bc0ce72e0eb909669b593ca792fc3eb66c34395d4e7d")},
+                { 37057, uint256S("0x000000000007e8e7b56469d7684b53516a4183f667f8e4514f2354ea2a4a45a1")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from RPC: getchaintxstats
-            /* nTime    */ 1657165876,
-            /* nTxCount */ 1848,
-            /* dTxRate  */ 0.001777275114109141,
+            /* nTime    */ 1675724950,
+            /* nTxCount */ 46410,
+            /* dTxRate  */ 0.00236776,
         };
     }
 };
