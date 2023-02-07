@@ -41,11 +41,11 @@ Specifications:
 
 • Block Time:       7 minutes
 
-• Block Reward:     0.01 ACG (Gold bar)
+• Block Reward:     50 ACG (Gold bar)
 
 • Difficulty:       Every block
 
-• Halving:          None
+• Halving:          Every 500K Blocks
 
 • Ticker:           ACG
 
