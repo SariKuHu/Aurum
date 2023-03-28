@@ -57,7 +57,7 @@ Specifications:
 
 • RPC Port:         9888 - 19888 - 29888
 
-• Max supply:       18,999,999 ACG
+• Max supply:       51,940,422 ACG
 
 • POW Maturity:     100 blocks
 
