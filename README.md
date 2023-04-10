@@ -35,7 +35,7 @@ Specifications:
 
 • Uses the POW (Proof of Work)
 
-• Uses DarkGravityWave (DGW) difficulty algorithm
+• Uses a custom version of DarkGravityWave (DGW) difficulty algorithm
 
 • Algorithm:        SHA256
 
