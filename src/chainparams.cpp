@@ -106,10 +106,6 @@ public:
         vSeeds.emplace_back("node02.aurumcrypto.gold");
         vSeeds.emplace_back("node03.aurumcrypto.gold");
         vSeeds.emplace_back("node04.aurumcrypto.gold");
-        vSeeds.emplace_back("45.32.74.196");
-        vSeeds.emplace_back("65.20.77.146");
-        vSeeds.emplace_back("95.179.212.35");
-        vSeeds.emplace_back("149.28.169.149");
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,83);
@@ -141,14 +137,16 @@ public:
                 { 26383, uint256S("0x0000000000012ab10113994438c74c2d85358dae8aaad31ec580f441f26d15e0")},
                 { 29976, uint256S("0x000000000001ad9dd411bc0ce72e0eb909669b593ca792fc3eb66c34395d4e7d")},
                 { 37057, uint256S("0x000000000007e8e7b56469d7684b53516a4183f667f8e4514f2354ea2a4a45a1")},
+                { 45633, uint256S("0x0000000000000006d531b3654b1264beff63b4387efe0a5286da06e1bbaff9fb")},
+                { 46547, uint256S("0x00000000000000002b16b71c810709d15257a0b6bd4b636fc993eaf800141964")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from RPC: getchaintxstats
-            /* nTime    */ 1675724950,
-            /* nTxCount */ 46410,
-            /* dTxRate  */ 0.00236776,
+            /* nTime    */ 1681070553,
+            /* nTxCount */ 58291,
+            /* dTxRate  */ 0.00233525,
         };
     }
 };
