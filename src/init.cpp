@@ -561,6 +561,7 @@ std::string LicenseInfo()
     const std::string URL_EXPLORER= "<https://blocks.aurumcrypto.gold>";
     const std::string URL_WEBSITE = "<https://aurumcrypto.gold>";
     const std::string URL_MININGPOOL = "<https://mining.aurumcrypto.gold>";
+    const std::string URL_WEBWALLET = "<https://aurumwallet.gold>";
 
        return     "\n" +
            strprintf(_("Official website %s").translated,
@@ -573,6 +574,10 @@ std::string LicenseInfo()
            "\n" +
            strprintf(_("Mining pool: %s").translated,
                URL_MININGPOOL) +
+           "\n" +
+           "\n" +
+           strprintf(_("Web wallet: %s").translated,
+               URL_WEBWALLET) +
            "\n" +
            "\n" +
            "\n";
