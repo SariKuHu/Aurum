@@ -1,6 +1,6 @@
 Aurum Crypto Gold
 ========
-![](share/pixmaps/splashscreen_transparent.png)
+![](https://i.imgur.com/f9wp1xf.jpeg)
 
 
 ---
