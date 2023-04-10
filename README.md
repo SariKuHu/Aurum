@@ -17,6 +17,7 @@ Links
 
 • Wallets:  https://github.com/SariKuHu/Aurum/releases/latest
 
+• Web Wallet:  https://aurumwallet.gold
 
 
 
