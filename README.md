@@ -1,6 +1,6 @@
 Aurum Crypto Gold
 ========
-![](https://i.imgur.com/f9wp1xf.jpeg)
+![](share/pixmaps/splashscreen_transparent.png)
 
 
 ---
@@ -17,7 +17,6 @@ Links
 
 • Wallets:  https://github.com/SariKuHu/Aurum/releases/latest
 
-• Web Wallet:  https://aurumwallet.gold
 
 
 
@@ -40,7 +39,7 @@ Specifications:
 
 • Algorithm:        SHA256
 
-• Block Time:       7 minutes
+• Block Time:       Variable
 
 • Block Reward:     50 ACG (Gold bars)
 
