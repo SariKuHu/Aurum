@@ -39,7 +39,7 @@ Specifications:
 
 • Algorithm:        SHA256
 
-• Block Time:       10 minutes
+• Block Time:       30 seconds | After height 96,660: 10 minutes
 
 • Block Reward:     50 ACG (Gold bars)
 
