@@ -39,7 +39,7 @@ Specifications:
 
 • Algorithm:        SHA256
 
-• Block Time:       Variable
+• Block Time:       10 minutes
 
 • Block Reward:     50 ACG (Gold bars)
 

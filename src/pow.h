@@ -20,6 +20,7 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consens
 unsigned int static DarkGravityWave2(const CBlockIndex* pindexLast, const Consensus::Params& params); 
 unsigned int static DarkGravityWave3(const CBlockIndex* pindexLast, const Consensus::Params& params);
 unsigned int static DarkGravityWave4(const CBlockIndex* pindexLast, const Consensus::Params& params);
+unsigned int static DarkGravityWave5(const CBlockIndex* pindexLast, const Consensus::Params& params);
 
 
 /** Check whether a block hash satisfies the proof-of-work requirement specified by nBits */

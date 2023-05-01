@@ -70,6 +70,7 @@ struct Params {
      int nDGW2Height;
      int nDGW3Height;
      int nDGW4Height;
+     int nDGW5Height;
 
     uint32_t nRuleChangeActivationThreshold;
     uint32_t nMinerConfirmationWindow;
@@ -88,6 +89,10 @@ struct Params {
     int64_t nPowTargetTimespan3;
     int64_t nPowTargetSpacing3Height;
     int64_t nPowTargetTimespan3Height;
+    int64_t nPowTargetSpacing4;
+    int64_t nPowTargetTimespan4;
+    int64_t nPowTargetSpacing4Height;
+    int64_t nPowTargetTimespan4Height;
     int64_t DifficultyAdjustmentInterval() const { return nPowTargetTimespan / nPowTargetSpacing; }
     uint256 nMinimumChainWork;
     uint256 defaultAssumeValid;

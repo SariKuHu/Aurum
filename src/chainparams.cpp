@@ -74,6 +74,10 @@ public:
         consensus.nPowTargetSpacing3Height = 46895;
         consensus.nPowTargetTimespan3 = 0.5 * 60;
         consensus.nPowTargetSpacing3 = 0.5 * 60;
+        consensus.nPowTargetTimespan4Height = 96660;
+        consensus.nPowTargetSpacing4Height = 96660;
+        consensus.nPowTargetTimespan4 = 10 * 60;
+        consensus.nPowTargetSpacing4 = 10 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 180;
@@ -82,6 +86,7 @@ public:
         consensus.nDGW2Height = 46680;
         consensus.nDGW3Height = 46846;
         consensus.nDGW4Height = 46895;
+        consensus.nDGW5Height = 96660;
 
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601;
