@@ -155,14 +155,16 @@ public:
                 { 37057, uint256S("0x000000000007e8e7b56469d7684b53516a4183f667f8e4514f2354ea2a4a45a1")},
                 { 45633, uint256S("0x0000000000000006d531b3654b1264beff63b4387efe0a5286da06e1bbaff9fb")},
                 { 46547, uint256S("0x00000000000000002b16b71c810709d15257a0b6bd4b636fc993eaf800141964")},
+                { 76195, uint256S("0x0000000000000015c6576202a212fb53b4475103c50dd88454c6995b2860cd94")},
+                { 76325, uint256S("0x000000000000002416e5fde51c5fc94a9209220813310e5c0e0d36e660515e40")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from RPC: getchaintxstats
-            /* nTime    */ 1681070553,
-            /* nTxCount */ 58291,
-            /* dTxRate  */ 0.00233525,
+            /* nTime    */ 1682943119,
+            /* nTxCount */ 90812,
+            /* dTxRate  */ 0.00338633,
         };
     }
 };
