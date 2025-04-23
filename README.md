@@ -13,13 +13,17 @@ Links
 
 • Explorer: https://blocks.aurumcrypto.gold
 
-• Mining Pool: https://mining.aurumcrypto.gold
+• Mining Pool: coming soon!
 
 • Wallets:  https://github.com/SariKuHu/Aurum/releases/latest
 
-• Web wallet:  https://aurumwallet.gold/
+• Web wallet:  https://vault.aurumcrypto.gold/
 
-• Android wallet: https://play.google.com/store/apps/details?id=gold.aurum.wallet
+• Android wallet: coming soon!
+
+• Exchange: https://xeggex.com/market/ACG_USDT
+
+• CoinGecko: https://www.coingecko.com/en/coins/aurum-gold
 
 
 
